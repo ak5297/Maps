@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+	<!-- Icon made by Vector Market from www.flaticon.com -->
+    <link rel="shortcut icon" type="image/png" href="map.png"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Map Me!</title>
+    <link href="css/index.css" rel="stylesheet" type="text/css"> 
+    
+</head>
+<body>
+
+    <div id="top">
+        <h1>Map Me!</h1>
+    </div>
+
+
+        <div id="Weather">
+                <p>Temperature: <span id="w"></span> </p>
+        </div>
+        
+        <div id="altitude">
+                <p>Altitude: <span id="al"></span> </p>
+        </div>
+
+        <div id="humidity">
+                <p>Humidity: <span id="hu"></span> </p>
+        </div>
+
+
+    <div id="map-canvas"></div>
+
+
+        <div id="location">
+        <p>Location:  <span id="locS"></span></p>
+        </div>
+        <div id="lat">
+        <p>Latitude:  <span id="latS"></span></p>
+        </div>
+        <div id="long">
+        <p>Longitude:  <span id="lonS"></span></p>
+        </div>
+
+
+    <script src="js/index.js"></script>
+    <script src="https://maps.google.com/maps/api/js?key=AIzaSyCBnXon7ZMIstcJHJ50CC9qHNUz46YxvfY&callback=initMap"></script>
+</body>
+</html>
